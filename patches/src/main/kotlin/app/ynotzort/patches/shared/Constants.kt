@@ -5,20 +5,17 @@ import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 
 object Constants {
-    val COMPATIBILITY_EXAMPLE = Compatibility(
-        name = "XYZ app",
-        packageName = "com.example.app",
-        apkFileType = ApkFileType.APK,
-        appIconColor = 0xFF0045, // Icon color in Morphe Manager
+    val COMPATIBILITY_TARGO = Compatibility(
+        name = "TARGOBANK",
+        packageName = "com.targo_prod.bad",
+        // Split APK: base + split_config.arm64_v8a + split_config.xxhdpi
+        apkFileType = ApkFileType.APKS,
+        // SHA-256 of the original Play-signed cert (apksigner verify --print-certs).
+        signatures = setOf(
+            "543468cf37c5536717b8950168f7990e7d5bc61ea8dc5b39d8d4ff249f892a4c",
+        ),
         targets = listOf(
-            // "version = null" means the patch works with the latest app target
-            // and is expected to work with all future app targets
-            AppTarget(
-                version = "2.0.0"
-            ),
-            AppTarget(
-                version = "1.0.2",
-            )
-        )
+            AppTarget(version = "V12.68.1"),
+        ),
     )
 }
