@@ -5,17 +5,21 @@ Patches for apps I like.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0-dev.1](https://github.com/ynotzort/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 TARGOBANK&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
+**🎯 Supported versions:**
 
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above.
+| V12.68.1 |
+| :---: |
 
-     If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END
-     comment blocks entirely. -->
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable TargoBank root check](#disable-targobank-root-check) | Neutralises the splash 'rooted device' block by forcing the security verdict getters (o.aNj.con/Aux/AuX) to return false, so the app proceeds to the login screen. Validated on V12.68.1 (versionCode 2019102761). Note: re-signing breaks Play Integrity app-recognition; keep the app in the Magisk denylist. |  |
 
-#### A list of your patches will be automatically shown here after your first patches release is created.
-
-&nbsp;
+</details>
 
 <!-- PATCHES_END -->
 
