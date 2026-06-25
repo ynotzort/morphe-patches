@@ -1,4 +1,4 @@
-package app.template.patches.example
+package app.ynotzort.patches.example
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.InstructionLocation.*
@@ -8,7 +8,7 @@ import app.morphe.patcher.literal
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.opcode
 import app.morphe.patcher.string
-import app.template.patches.example.AdLoaderFingerprint.classDef
+import app.ynotzort.patches.example.AdLoaderFingerprint.classDef
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
