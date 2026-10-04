@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/ynotzort/morphe-patches/compare/v1.0.0...v1.1.0) (2026-10-04)
+
+### ✨ New Features
+
+* Symfonium ([1739f5d](https://github.com/ynotzort/morphe-patches/commit/1739f5d34856a24d9f41b3f241b3101b691ce3d8))
+
 ## 1.0.0 (2026-06-25)
 
 ### ✨ New Features
